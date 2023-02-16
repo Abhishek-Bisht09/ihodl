@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ihodl"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:5:5-65
+12-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:6:5-81
+13-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:6:22-78
+14    <!-- Required to access Google Play Licensing -->
+15    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+15-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+15-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+16    <!--
+17         Required to keep CPU alive while downloading files
+18        (NOT to keep screen awake)
+19    -->
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-68
+20-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:22-65
+21    <!--
+22         Required to poll the state of the network connection
+23        and respond to changes
+24    -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+25-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-79
+25-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:22-76
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+26-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:22-73
+27
+28    <application
+28-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:7:5-26:19
+29        android:name="com.ihodl.MainApplication"
+29-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:8:7-38
+30        android:allowBackup="false"
+30-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:12:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] /Users/macmini7/.gradle/caches/transforms-3/63a3df243d2d102452600006144a86df/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:10:7-41
+33        android:label="@string/app_name"
+33-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:9:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:11:7-52
+35        android:theme="@style/AppTheme" >
+35-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:13:7-38
+36        <activity
+36-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:14:7-25:18
+37            android:name="com.ihodl.MainActivity"
+37-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:15:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+38-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:17:9-118
+39            android:exported="true"
+39-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:20:9-32
+40            android:label="@string/app_name"
+40-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:16:9-41
+41            android:launchMode="singleTask"
+41-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:18:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:19:9-51
+43            <intent-filter>
+43-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:21:9-24:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:22:13-65
+44-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:22:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:23:13-73
+46-->/Users/macmini7/Desktop/React/iHodl/android/app/src/main/AndroidManifest.xml:23:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+51            android:name="com.imagepicker.ImagePickerProvider"
+51-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+52            android:authorities="com.ihodl.imagepickerprovider"
+52-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+53            android:exported="false"
+53-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+54            android:grantUriPermissions="true" >
+54-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+55            <meta-data
+55-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+57                android:resource="@xml/imagepicker_provider_paths" />
+57-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+58        </provider>
+59        <provider
+59-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+60            android:name="com.RNFetchBlob.Utils.FileProvider"
+60-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+61            android:authorities="com.ihodl.provider"
+61-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+62            android:exported="false"
+62-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+63            android:grantUriPermissions="true" >
+63-->[:rn-fetch-blob] /Users/macmini7/Desktop/React/iHodl/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+64            <meta-data
+64-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+66                android:resource="@xml/provider_paths" />
+66-->[:react-native-image-picker] /Users/macmini7/Desktop/React/iHodl/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+67        </provider>
+68        <provider
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+70            android:authorities="com.ihodl.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini7/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macmini7/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macmini7/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macmini7/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>
